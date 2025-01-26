@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: url('https://th.bing.com/th/id/OIP.iD7yAp_xAz2AYgHObPYNAAHaEK?w=308&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+header {
+    background: rgba(30, 41, 59, 0.8);
+    color: #fff;
+    padding: 0.5em 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #f8fafc;
+    text-decoration: none;
+}
+
+.headcontainer {
+    text-align: center;
+}
+
+.section {
+    padding: 6em 0;
+    background: rgba(30, 41, 59, 0.8);
+    margin: 0 auto;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #1e293b;
+    transition: 0.3s ease;
+}
+
+.skills-list li:hover {
+    background: #3b82f6;
+    color: #fff;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    color: #1e293b;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+}
+
+form button {
+    background: #3b82f6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    border: none;
+    transition: 0.2s ease;
+}
+
+form button:hover {
+    background: #2563eb;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 2em 0;
+    background: rgba(111, 165, 253, 0.8);
+    color: #fff;
+}
